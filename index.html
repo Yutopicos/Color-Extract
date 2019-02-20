@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="dist/index.css"/>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Color Extract</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto" id="menu">
+        </ul>
+
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="container-fluid">
+    <div class="row">
+      <div id="welcome" class="bg-light col-11 col-md-9 col-lg-6">
+      </div>
+    </div>
+    <div class="row justify-content-center border">
+      <input id= "file" type="file" style="display: none;"/>
+      <div id="upload" class="col-11 col-md-9 col-lg-6">
+
+      </div>
+      <!-- upload or not -->
+    </div>
+    <div class="row justify-content-center border">
+      <div id="color" class="bg-light border" style="width: 20vh"></div>
+      <div id="preview"class="bg-light col-8" style="padding-top: 4em; width: 100%; height: 60vh; background-repeat: no-repeat; background-image: url(assets/images/default.png); background-position: center; background-size: 75%">
+        <!-- image -->
+      </div>
+    </div>
+     <br/>
+     <br/>
+    
+      <div>
+        <!-- image -->
+      </div>
+      <div>
+        <!-- color -->
+      </div>
+    </div>
+
+    <div id="gallery" class="row justify-content-center border">
+    </div>
+
+
+  </main>
+
+  <footer class="bottom border">
+
+  </footer>
+
+  <script type="text/javascript" src="dist/index.js"></script>
+
+</body>
+
+</html>
