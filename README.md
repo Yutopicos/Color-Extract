@@ -1,0 +1,1 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/58299825bbea4b229d24a8676866bde7)](https://www.codacy.com/app/Yutopicos/Color-Extract?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Yutopicos/Color-Extract&amp;utm_campaign=Badge_Grade)
