@@ -128,7 +128,8 @@
                 imageElement.setAttribute("alt", images[key].alt);
                 imageElement.setAttribute("src", images[key].src);
                 imageElement.setAttribute("class", "img-fluid");
-                imageElement.setAttribute("style", "width:100%");
+                imageElement.setAttribute("style", "width:140px");
+                imageElement.setAttribute("style", "height: 200px");
                 imageElementDiv.setAttribute("class", "text-center bg-light col-6 col-lg-4 col-xl-2 border");
                 registerEvent(imageElement);
             }
@@ -155,6 +156,7 @@
         color.innerHTML = "";
         var preview = window.document.querySelector("#preview");
         preview.style.backgroundImage = "url(" + imageElement.getAttribute("src") + ")";
+
         var btn = window.document.createElement("button");
         var text = window.document.createTextNode("Delete");
         btn.appendChild(text);
